@@ -58,6 +58,8 @@ with gr.Blocks() as demo:
     outputs  = [gr.Textbox(label = "Generated text")]
     generate_btn.click(fn = generate_text, inputs= inputs, outputs = outputs)
 
+# for collab
+# demo.launch(debug=True) 
 
 if __name__ == '__main__':
-    demo.launch(debug=True) 
+    demo.launch(share=True) 
