@@ -1,6 +1,6 @@
 import gradio as gr
 import os
-from safetensors.torch import save_model
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
