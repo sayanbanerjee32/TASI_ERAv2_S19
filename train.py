@@ -114,7 +114,7 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 best_val_loss = 1e9
 os.makedirs(out_dir, exist_ok=True)
 for iter in range(max_iters):
-    if iter % eval_interval == 0:
+    if iter % eval_interval == 0 or iter == max_iters-1:
         losses = estimate_loss()
         print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
 
