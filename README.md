@@ -36,7 +36,7 @@ Tiny shakespeare, of the good old char-rnn fame :) Treated on character-level.
 
 The app is available [here](https://huggingface.co/spaces/sayanbanerjee32/nano_text_generator)
 
-The takes following as input 
+The App takes following as input 
 1. Seed Text (Prompt) - This provided as input text to the GPT model, based on which it generates further contents. If no data is provided, the only a space (" ") is provided as input
 2. Max tokens to generate - This controls the numbers of character tokens it will generate. The default value is 100.
 3. Temperature - This accepts value between 0 to 1. Higher value introduces more randomness in the next token generation. Default value is set to 0.7.
