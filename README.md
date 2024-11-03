@@ -1,4 +1,4 @@
-# TASI_ERAv2_S19
+# Nanot Text Generator
 
 ## Objective
 
